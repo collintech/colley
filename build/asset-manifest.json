@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.702d0974.css",
+    "main.js": "/static/js/main.3847c168.js",
+    "static/js/787.01c09414.chunk.js": "/static/js/787.01c09414.chunk.js",
+    "static/media/IMG_20201115_115430.jpg": "/static/media/IMG_20201115_115430.66b58a6c48662c90f138.jpg",
+    "static/media/E-RESTAURANT 2.png": "/static/media/E-RESTAURANT 2.1674a60a548c288d72b5.png",
+    "static/media/me-removebg-preview.png": "/static/media/me-removebg-preview.8639489d49015652cf6f.png",
+    "static/media/gem-home.png": "/static/media/gem-home.fe564228ea4f12abc00b.png",
+    "static/media/chat-app.png": "/static/media/chat-app.cf64ea62698447757cf8.png",
+    "static/media/gem-form.png": "/static/media/gem-form.848f071a5559398d9b3a.png",
+    "static/media/plouzane-bg.jpg": "/static/media/plouzane-bg.30f390ace9f12032a53e.jpg",
+    "static/media/firebase.png": "/static/media/firebase.c19b705a20efe40a4f32.png",
+    "static/media/contact.png": "/static/media/contact.2d6f3c6308ae516b8ce1.png",
+    "static/media/Collins Tochukwu.pdf": "/static/media/Collins Tochukwu.db8f03b913c13bed2fed.pdf",
+    "index.html": "/index.html",
+    "main.702d0974.css.map": "/static/css/main.702d0974.css.map",
+    "main.3847c168.js.map": "/static/js/main.3847c168.js.map",
+    "787.01c09414.chunk.js.map": "/static/js/787.01c09414.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.702d0974.css",
+    "static/js/main.3847c168.js"
+  ]
+}
