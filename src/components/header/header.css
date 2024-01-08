@@ -162,10 +162,10 @@ a[tootip]::after {
 }
 
 
-@media screen and (max-width: 452px) {
+/* @media screen and (max-width: 452px) {
 
     .scroll_down,
     .header_socials {
         display: none;
     }
-}
+} */
