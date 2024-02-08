@@ -1,0 +1,171 @@
+header {
+    height: 100vh;
+    padding: 7rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    margin-top: 1rem;
+}
+
+/**************************** CTA ***************************/
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+
+/************************** SOCIALS *************************/
+.header_socials {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    transition: var(--transition);
+
+}
+
+.header_socials:hover {
+    transform: scale(1.03);
+    color: #066fb9;
+}
+
+.header_socials::after {
+    content: "";
+    width: 2px;
+    height: 2rem;
+    background-color: var(--color-primary);
+}
+
+
+.animation {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    margin-left: .5rem;
+    font-weight: bold;
+}
+
+.headline {
+    font-size: 1.5rem;
+    margin-top: -10px;
+}
+
+.youtube,
+.linkedin,
+.drive {
+    font-size: 1.5rem;
+}
+
+.youtube {
+    color: red;
+    transform: scale(1.1rem);
+}
+
+.drive {
+    color: rgb(7, 201, 7);
+}
+
+.linkedin {
+    color: white;
+    background-color: blue;
+}
+
+
+a[tootip]::after {
+    content: "link to my book store";
+    top: 2px;
+    right: 2rem;
+    color: white;
+}
+
+
+/**************************** ME ***************************/
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: relative;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+}
+
+
+.me img {
+    width: 22rem;
+    height: 32rem;
+    object-fit: cover;
+
+    border-radius: 12rem 12rem 0 0;
+    position: inherit;
+    left: calc(50% - 11rem);
+    padding: 0 .3rem 1rem .3rem;
+}
+
+/************************* SCROLL DOWN ************************/
+.scroll_down {
+    position: absolute;
+    right: -2.5rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-size: 1rem;
+
+}
+
+
+/*********** MEDIA QUERIES (MEDIUM DEVICES) *************/
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+
+    .headline {
+        font-size: 1rem;
+    }
+
+}
+
+/*********** MEDIA QUERIES (SMALL DEVICES) *************/
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .scroll_down,
+    .header_socials {
+        font-size: 0.9rem;
+    }
+
+    .name {
+        margin-bottom: 0;
+    }
+
+
+    .animation {
+        font-size: 1.2rem;
+    }
+
+    .headline {
+        margin-top: -5px;
+    }
+
+}
+
+
+/* @media screen and (max-width: 452px) {
+
+    .scroll_down,
+    .header_socials {
+        display: none;
+    }
+} */
